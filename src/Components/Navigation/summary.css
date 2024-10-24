@@ -1,0 +1,98 @@
+/* Container for the entire component */
+.rounded {
+    border-radius: 0.5rem; /* rounded corners */
+}
+
+.bg-white {
+    background-color: white; /* white background */
+}
+
+.p-4 {
+    padding: 1rem; /* padding of 1rem */
+}
+
+.flex {
+    display: flex; /* flexbox layout */
+}
+
+.w-full {
+    width: 100%; /* full width */
+}
+
+.shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+
+/* Inner container for the icon */
+.bg-indigo-200 {
+    background-color: rgb(245, 102, 146, 0.2); /* light indigo background */
+}
+
+.rounded-lg {
+    border-radius: 0.5rem; /* slightly larger rounded corners */
+}
+
+.p-4 {
+    padding: 1rem; /* padding of 1rem */
+}
+
+/* Flex container for text content */
+.w-full {
+    width: 100%; /* full width */
+}
+
+.p-2 {
+    padding: 0.5rem; /* padding of 0.5rem */
+}
+
+.flex-col {
+    flex-direction: column; /* column layout */
+}
+
+.gap-2 {
+    gap: 0.5rem; /* spacing between flex items */
+}
+
+/* Styling for text alignment */
+.justify-between {
+    justify-content: space-between; /* space between items */
+}
+
+.font-semibold {
+    font-weight: 600; /* semi-bold text */
+}
+
+.text-zinc-500 {
+    color: #4B5563; /* zinc gray color for text */
+}
+
+.text-sm {
+    font-size: 0.875rem; /* small font size */
+}
+
+/* Amount display styles */
+.font-bold {
+    font-weight: bold; /* bold font for amount */
+}
+
+.text-zinc-400 {
+    color: #9CA3AF; /* lighter gray for secondary text */
+}
+
+/* .h-0.5 {
+    height: 0.125rem; 
+} */
+
+/* Progress bar styling */
+.progress-bar {
+    height: 7px; /* height of the progress bar */
+    border-radius: 5px; /* rounded corners for progress bar */
+    background-color: #E5E7EB; /* default background color */
+    position: relative; /* relative positioning for inner bar */
+}
+
+.progress-bar-fill {
+    background-color: rgba(34,34,96,1); /* filled color */
+    height: 100%; /* full height */
+    transition: width 0.3s ease; /* smooth transition */
+}
